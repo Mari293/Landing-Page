@@ -12,3 +12,6 @@ header{background-color: #242d3c;color: #fff; height: 5em; display: flex; align-
 .ISO2{max-width: 35em; text-align: justify;}
 .ISO2 h4{text-align: center;}
 .ISO2 ul li{list-style:circle; margin-left: 2em;}
+.section3{display: flex; width: 100%;justify-content:space-evenly; height:15em;align-items: center; background-color:#5B6064; color:#fff}
+#SPICE{display: flex;flex-direction: column; max-width: 45em; text-align: justify; justify-content: center; }
+#SPICE ol li{margin-left: 2em;}
