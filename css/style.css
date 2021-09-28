@@ -29,3 +29,6 @@ header{background-color: #242d3c;color: #fff; height: 5em; display: flex; align-
 .modelos6{display:grid;justify-items: center; max-width: 30em; text-align: justify; color:#fff}
 
 .section7{display: flex; width: 100%;justify-content:space-evenly; align-content: center;height: 15em;align-items: center;}
+
+footer{background-color: #242d3c; height: 5em; text-align: center;}
+footer p{line-height: 2em;color:#fff}
