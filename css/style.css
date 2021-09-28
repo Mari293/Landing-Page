@@ -32,6 +32,31 @@ header{background-color: #242d3c;color: #fff; height: 5em; display: flex; align-
 footer{background-color: #242d3c; height: 5em; text-align: center;}
 footer p{line-height: 2em;color:#fff}
 
+@media screen and (max-width: 1200px){
+    *{padding: 1px;}
+    .info{padding: 1em; font-size: 120%;}
+
+    .section2{height: 105em; font-size: 120%;}
+    .columnas{grid-template-rows: 10% 20% 20% 23% 40%; grid-template-columns: 140%; justify-content: center;}
+    .title{grid-row:1/2; grid-column: 1/2;}
+    .title p{font-size: 150%;}
+    
+    .section3{font-size: 120%;}
+
+    .section4{height: 25em; font-size: 120%;}
+    .CMMI{ max-width: 35em;}
+
+    .section5{height: 12em; font-size: 120%;}
+    
+
+    .section6{height: 13em;font-size: 120%;}
+    .modelos6{max-width: 20em;}
+
+    .section7{font-size: 120%;}
+
+    footer{font-size: 120%;}
+
+}
 
 @media screen and (max-width: 992px){
     *{padding: 1px;}
