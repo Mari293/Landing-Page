@@ -32,6 +32,30 @@ header{background-color: #242d3c;color: #fff; height: 5em; display: flex; align-
 footer{background-color: #242d3c; height: 5em; text-align: center;}
 footer p{line-height: 2em;color:#fff}
 
+@media screen and (max-width: 768px){
+    *{padding: 1px;}
+    header {font-size: 70%;}
+    .info{padding: 0.5em; text-align: center;}
+    .section1{height:20em;}
+
+    .section2{height: 100em;}
+    .columnas{grid-template-rows: 10% 20% 20% 23% 40%; grid-template-columns: 100%; }
+    .title{grid-row:1/2; grid-column: 1/2;}
+    .title p{font-size: 120%;}
+    .title img{width: 28%;}
+
+    .section4{height: 25em;}
+    .section4 img{height: 40%;}
+    .CMMI{ max-width: 28em;}
+
+    .section5{height: 12em;}
+    .section5 img {height: 40%;}
+
+    .section6{height: 13em;}
+    .modelos6{max-width: 20em;}
+
+}
+
 @media screen and (max-width: 576px){
     *{padding: 1px;}
     header {font-size: 55%;}
@@ -63,5 +87,4 @@ footer p{line-height: 2em;color:#fff}
     .section7 img{width: 25%;}
 
     footer{ height: 4em;}
-    
 }
